@@ -1,0 +1,3 @@
+.successMsg {
+    @apply w-full text-center self-center box-border text-[#155724] bg-[#d4edda] border rounded mb-5 p-[15px] border-solid border-transparent border-[#c3e6cb];
+  }

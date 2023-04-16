@@ -1,0 +1,3 @@
+.warningMsg {
+    @apply w-full text-center self-center box-border text-[#856404] bg-[#fff3cd] border rounded mb-5 p-[15px] border-solid border-transparent border-[#ffeeba];
+  }

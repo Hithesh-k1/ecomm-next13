@@ -1,4 +1,5 @@
-import '../public/reset.css';
+// import '../public/reset.css';
+import '../globals.css'
 import { ApolloProvider } from '@apollo/client';
 import { useApollo } from '../apollo/client';
 

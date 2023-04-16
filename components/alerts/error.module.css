@@ -1,0 +1,3 @@
+.errorMsg {
+    @apply w-full text-center self-center box-border text-[#a94442] bg-[#f2dede] border rounded mb-5 p-[15px] border-solid border-transparent border-[#ebccd1];
+  }

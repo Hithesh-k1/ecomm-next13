@@ -1,0 +1,11 @@
+#product {
+    @apply flex flex-row justify-between w-full;
+  }
+  #product .main {
+    @apply grow pl-[30px];
+  }
+  @media (max-width: 900px) {
+    #product .main {
+      @apply pl-0;
+    }
+  }

@@ -1,4 +1,4 @@
-<h1 align="center">Ecommerce made with Next.js</h1>
+<!-- <h1 align="center">Ecommerce made with Next.js</h1>
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/rafael-goulartb/">
@@ -141,4 +141,4 @@ Check out the [contributing](./CONTRIBUTING.md) page to see the best places to f
 Released in 2020.
 This project is under the [MIT license](./LICENSE).
 
-Made with love by [RafaelGoulartB](https://github.com/RafaelGoulartB) 🚀
+Made with love by [RafaelGoulartB](https://github.com/RafaelGoulartB) 🚀 -->
