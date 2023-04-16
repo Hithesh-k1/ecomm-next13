@@ -24,40 +24,40 @@ export default function HeaderDesktop({ viewer }) {
 
         <div className="nav-buttons">
           <Link href="/cart">
-            <a className="nav-buttons-items">
+            <span className="nav-buttons-items">
               <FaShoppingCart color="#808080" />
               <p>
                 <sup className="items-total">{cart.data.cart.cartCount}</sup>{' '}
                 Items
               </p>
-            </a>
+            </span>
           </Link>
           <Link href="/wishlist">
-            <a className="nav-buttons-wishlist">
+            <span className="nav-buttons-wishlist">
               <FaRegHeart color="#808080" />
               <p>Wishlist</p>
-            </a>
+            </span>
           </Link>
           {!viewer && (
             <Link href="/user/login">
-              <a className="nav-buttons-signin">
+              <span className="nav-buttons-signin">
                 <FaUser color="#808080" />
                 <p>Sign In</p>
-              </a>
+              </span>
             </Link>
           )}
           {viewer && (
             <>
               <Link href="/profile">
-                <a className="nav-buttons-profile">
+                <span className="nav-buttons-profile">
                   <FaUser color="#808080" />
                   <p>{viewer.name}</p>
-                </a>
+                </span>
               </Link>
               <Link href="/user/signout">
-                <a className="nav-buttons-signout">
+                <span className="nav-buttons-signout">
                   <FaSignOutAlt />
-                </a>
+                </span>
               </Link>
             </>
           )}
@@ -83,16 +83,16 @@ export default function HeaderDesktop({ viewer }) {
 
         <nav className="main-nav">
           <Link href="#">
-            <a>Super Deals</a>
+            <span>Super Deals</span>
           </Link>
           <Link href="#">
-            <a>Featured Brands</a>
+            <span>Featured Brands</span>
           </Link>
           <Link href="#">
-            <a>Collections</a>
+            <span>Collections</span>
           </Link>
           <Link href="#">
-            <a>Bestselling</a>
+            <span>Bestselling</span>
           </Link>
         </nav>
 

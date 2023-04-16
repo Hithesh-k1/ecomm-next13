@@ -1,21 +1,27 @@
-import Loader from 'react-loader-spinner';
+import { Oval } from 'react-loader-spinner';
 
 export default function LoadingPage() {
   return (
     <div className="spinner">
-      <Loader
-        type="Oval"
-        color="#1875f0"
-        height={60}
-        width={60}
+      <Oval
+        height={80}
+        width={80}
+        color="#4fa94d"
+        wrapperStyle={{}}
+        wrapperClass=""
+        visible={true}
+        ariaLabel="oval-loading"
+        secondaryColor="#4fa94d"
+        strokeWidth={2}
+        strokeWidthSecondary={2}
       />
       <style jsx>{`
-          .spinner {
-            display: flex;
-            justify-content: center;
-            margin-top: 3em;
-          }
-        `}</style>
+        .spinner {
+          display: flex;
+          justify-content: center;
+          margin-top: 3em;
+        }
+      `}</style>
     </div>
-  )
+  );
 }

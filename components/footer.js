@@ -19,39 +19,39 @@ export default function Fotter() {
 
         <div className="footer-nav">
           <Link href="/">
-            <a>Shop</a>
+            Shop
           </Link>
           <Link href="/">
-            <a>Journal</a>
+            Journal
           </Link>
           <Link href="/">
-            <a>About</a>
+            About
           </Link>
           <Link href="/">
-            <a>Contacts</a>
+            Contacts
           </Link>
         </div>
 
         <div className="social-links">
           <Link href="/">
-            <a>
+            
               <FaFacebookF color="#d8d8d8" size="18px" />
-            </a>
+            
           </Link>
           <Link href="/">
-            <a>
+            
               <FaTwitter color="#d8d8d8" size="18px" />
-            </a>
+            
           </Link>
           <Link href="/">
-            <a>
+            
               <FaInstagram color="#d8d8d8" size="18px" />
-            </a>
+            
           </Link>
           <Link href="/">
-            <a>
+            
               <FaYoutube color="#d8d8d8" size="18px" />
-            </a>
+            
           </Link>
         </div>
       </div>

@@ -69,10 +69,10 @@ export default function Login() {
         </form>
 
         <Link href="/user/signup">
-          <a className="switchForm">I do not have a account</a>
+          <span className="switchForm">I do not have a account</span>
         </Link>
         <Link href="/user/resetpassword">
-          <a className="switchForm">I forgot my password</a>
+          <span className="switchForm">I forgot my password</span>
         </Link>
       </FormContainer>
 

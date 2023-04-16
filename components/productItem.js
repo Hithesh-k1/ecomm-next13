@@ -34,7 +34,7 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
       </div>
 
       <Link href={`/product/${id}`}>
-        <a className="product-name">{name}</a>
+        <span className="product-name">{name}</span>
       </Link>
 
       <div className="rating">

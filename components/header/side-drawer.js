@@ -21,19 +21,13 @@ export default function SideDrawer({ closeDrawer }) {
 
       <ul className="items">
         <li id="home" className="item">
-          <Link href="/cart">
-            <a>Items</a>
-          </Link>
+          <Link href="/cart">Items  </Link>
         </li>
         <li id="about" className="item">
-          <Link href="/wishlist">
-            <a>Wishlist</a>
-          </Link>
+          <Link href="/wishlist">Wishlist  </Link>
         </li>
         <li id="contact" className="item">
-          <Link href="/user/login">
-            <a>Sign In</a>
-          </Link>
+          <Link href="/user/login">Sign In  </Link>
         </li>
       </ul>
 

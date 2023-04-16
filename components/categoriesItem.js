@@ -31,7 +31,8 @@ export default function CategoriesItem({ category }) {
   return (
     <li key={category.id}>
       <Link href={`/category/${category.name}`}>
-        <a>
+        <div>
+          
           <div className="content">
             <div className="icon">
               <Icon color="#D8D8D8" size="22" />
@@ -41,7 +42,7 @@ export default function CategoriesItem({ category }) {
           <div className="arrow-button">
             <MdKeyboardArrowRight color="#D8D8D8" size="26" />
           </div>
-        </a>
+        </div>
       </Link>
 
       <style jsx>{`

@@ -89,7 +89,7 @@ export default function SignUp() {
         </form>
 
         <Link href="/user/login">
-          <a className="switchForm">I already have a account</a>
+          <span className="switchForm">I already have a account</span>
         </Link>
       </FormContainer>
 
