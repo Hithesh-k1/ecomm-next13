@@ -1,0 +1,23 @@
+.input {
+    @apply w-full text-[15px] text-[#4d4d4d] font-medium bg-white shadow-[1px_1px_4px_rgba(0,0,0,0.2)] mb-[34px] pl-8 py-[1.25em] rounded-md border-[none];
+  }
+  .input ::placeholder {
+    @apply text-[#b2b2b2] opacity-100;
+    /* Firefox */
+  }
+  .input :-ms-input-placeholder {
+    @apply text-[#b2b2b2];
+  }
+  .input ::-ms-input-placeholder {
+    @apply text-[#b2b2b2];
+  }
+  @media (max-width: 1000px) {
+    .input {
+      @apply w-[70vw] self-center;
+    }
+  }
+  @media (max-width: 800px) {
+    .input {
+      @apply w-[75vw];
+    }
+  }

@@ -1,0 +1,12 @@
+.formContainer {
+    @apply h-screen w-[60vw] flex flex-col items-center mt-[10%];
+  }
+  .formContainer .title {
+    @apply text-[#4d4d4d] text-[38px] uppercase font-[1000] tracking-[1.65px] mb-8;
+    -webkit-letter-spacing: 1.65px;
+  }
+  @media (min-width: 1400px) {
+    .formContainer {
+      @apply w-[840px] mt-[5%];
+    }
+  }

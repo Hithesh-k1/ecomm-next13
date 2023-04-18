@@ -81,7 +81,7 @@ export default function HeaderDesktop({ viewer }) {
           </select>
         </div>
 
-        <nav className="main-nav">
+        <nav className="main-nav flex gap-3">
           <Link href="#">
             <span>Super Deals</span>
           </Link>

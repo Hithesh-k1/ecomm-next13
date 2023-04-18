@@ -1,0 +1,13 @@
+.button {
+    @apply w-full bg-[#1875f0] text-white w-6/12 text-lg self-center mt-8 py-[1em] rounded-md border-[none];
+  }
+  @media (max-width: 1000px) {
+    .button {
+      @apply w-[70vw];
+    }
+  }
+  @media (max-width: 800px) {
+    .button {
+      @apply w-[75vw];
+    }
+  }
